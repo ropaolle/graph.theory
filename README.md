@@ -104,9 +104,3 @@
 |-------------|------------------------------------------|--------------------------------------------------------------|
 | Un-directed | Every vertex has even degree             | Every vertex has even degree or exactly two have odd degree. |
 | Directed    | Every vertex has equal in- and outdegree | Max one vertex with outdegree-indegree === 1 and <br>max one vertex with indegree-outdegree === 1.<br>Every other vertex has equal in- and outdegree.             |
-
-
-| Graph type  | Eulerian Circuit                         | Eulerian Path                                                |
-|-------------|------------------------------------------|--------------------------------------------------------------|
-| Un-directed | Every vertex has even degree             | Every vertex has even degree or exactly two have odd degree. |
-| Directed    | Every vertex has equal in- and outdegree | Max one vertex with outdegree-indegree === 1 and \\ max one vertex with indegree-outdegree === 1. \\ Every other vertex has equal in- and outdegree.|

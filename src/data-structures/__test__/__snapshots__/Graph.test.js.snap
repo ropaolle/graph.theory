@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Graph should convert graph to a printalble sting correctly 1`] = `
+{
+  "9": [],
+  "A": [
+    [
+      "B",
+      "X",
+    ],
+    [
+      "D",
+      undefined,
+    ],
+    [
+      "E",
+      undefined,
+    ],
+  ],
+  "B": [],
+  "D": [
+    [
+      "E",
+      undefined,
+    ],
+  ],
+  "E": [
+    [
+      "9",
+      undefined,
+    ],
+  ],
+}
+`;

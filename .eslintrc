@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es2020": true,
+    "jest": true
+  },
+  "plugins": ["prettier"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true, "printWidth": 100 }],
+    "no-console": ["error", { "allow": ["warn", "error", "info", "clear"] }],
+    "eqeqeq": ["error", "smart"],
+    "complexity": ["error", 16],
+    // "curly": ["error", "multi", "consistent"],
+    "no-throw-literal": "error",
+    "func-style": ["error", "expression"]
+  }
+}

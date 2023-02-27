@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdjacencyList should create a BinaryTree object correctly 1`] = `
+{
+  "0": [
+    "2",
+    "1",
+  ],
+  "1": [
+    "4",
+    "5",
+  ],
+  "10": [],
+  "11": [],
+  "2": [
+    "6",
+    "7",
+  ],
+  "4": [
+    "8",
+  ],
+  "5": [
+    "9",
+  ],
+  "6": [],
+  "7": [],
+  "8": [
+    "10",
+    "11",
+  ],
+  "9": [],
+}
+`;
+
+exports[`AdjacencyList should create a Graph object correctly 1`] = `
+Graph {
+  "directed": true,
+  "edges": Map {
+    "["A","B"]" => {
+      "a": "A",
+      "b": "B",
+      "weight": undefined,
+    },
+    "["A","C"]" => {
+      "a": "A",
+      "b": "C",
+      "weight": undefined,
+    },
+    "["A","D"]" => {
+      "a": "A",
+      "b": "D",
+      "weight": undefined,
+    },
+    "["B","D"]" => {
+      "a": "B",
+      "b": "D",
+      "weight": undefined,
+    },
+  },
+  "nodes": [
+    {
+      "key": "A",
+      "value": "A",
+    },
+    {
+      "key": "B",
+      "value": "B",
+    },
+    {
+      "key": "C",
+      "value": "C",
+    },
+    {
+      "key": "D",
+      "value": "D",
+    },
+  ],
+}
+`;
+
+exports[`AdjacencyList should import list object correctly 1`] = `
+{
+  "0": [
+    "2",
+    "1",
+  ],
+  "1": [
+    "4",
+    "5",
+  ],
+  "2": [
+    "6",
+    "7",
+  ],
+  "4": [
+    "8",
+  ],
+  "5": [
+    "9",
+  ],
+  "8": [
+    "10",
+    "11",
+  ],
+}
+`;
+
+exports[`AdjacencyList should import list object correctly 2`] = `
+{
+  "0": [
+    "2",
+    "1",
+  ],
+  "1": [
+    "4",
+    "5",
+  ],
+  "2": [
+    "6",
+    "7",
+  ],
+  "4": [
+    "8",
+  ],
+  "5": [
+    "9",
+  ],
+  "8": [
+    "10",
+    "11",
+  ],
+}
+`;
+
+exports[`AdjacencyList should import list object correctly 3`] = `
+{
+  "A": [
+    [
+      "B",
+      1,
+    ],
+  ],
+  "B": [
+    [
+      "C",
+      2,
+    ],
+  ],
+  "C": [
+    [
+      "D",
+      3,
+    ],
+  ],
+  "D": [
+    [
+      "A",
+      3,
+    ],
+  ],
+}
+`;
+
+exports[`AdjacencyList should import matrix object correctly 1`] = `
+{
+  "A": [
+    [
+      "B",
+      2,
+    ],
+    [
+      "C",
+      3,
+    ],
+    [
+      "D",
+      4,
+    ],
+  ],
+  "B": [
+    [
+      "A",
+      1,
+    ],
+    [
+      "C",
+      3,
+    ],
+    [
+      "D",
+      4,
+    ],
+  ],
+  "C": [
+    [
+      "A",
+      1,
+    ],
+    [
+      "B",
+      2,
+    ],
+    [
+      "D",
+      4,
+    ],
+  ],
+  "D": [
+    [
+      "A",
+      1,
+    ],
+    [
+      "B",
+      2,
+    ],
+    [
+      "C",
+      3,
+    ],
+  ],
+}
+`;
+
+exports[`AdjacencyList should import matrix object correctly 2`] = `
+{
+  "A": [
+    [
+      "B",
+      2,
+    ],
+    [
+      "C",
+      3,
+    ],
+    [
+      "D",
+      4,
+    ],
+  ],
+  "B": [
+    [
+      "A",
+      1,
+    ],
+    [
+      "C",
+      3,
+    ],
+    [
+      "D",
+      4,
+    ],
+  ],
+  "C": [
+    [
+      "A",
+      1,
+    ],
+    [
+      "B",
+      2,
+    ],
+    [
+      "D",
+      4,
+    ],
+  ],
+  "D": [
+    [
+      "A",
+      1,
+    ],
+    [
+      "B",
+      2,
+    ],
+    [
+      "C",
+      3,
+    ],
+  ],
+}
+`;
+
+exports[`AdjacencyList should import matrix object correctly 3`] = `
+{
+  "A": [
+    [
+      undefined,
+      3,
+    ],
+    [
+      undefined,
+      4,
+    ],
+  ],
+  "B": [
+    [
+      "A",
+      1,
+    ],
+    [
+      undefined,
+      3,
+    ],
+  ],
+}
+`;
+
+exports[`AdjacencyList should import set object correctly 1`] = `
+{
+  "A": [
+    "B",
+  ],
+  "B": [
+    "C",
+  ],
+  "C": [
+    "D",
+  ],
+  "D": [
+    "A",
+    "E",
+  ],
+}
+`;
+
+exports[`AdjacencyList should import set object correctly 2`] = `
+{
+  "A": [
+    "B",
+  ],
+  "B": [
+    "C",
+  ],
+  "C": [
+    "D",
+  ],
+  "D": [
+    "A",
+    "E",
+  ],
+}
+`;
+
+exports[`AdjacencyList should import set object correctly 3`] = `
+{
+  "A": [
+    [
+      "B",
+      1,
+    ],
+  ],
+  "B": [
+    [
+      "C",
+      2,
+    ],
+  ],
+  "C": [
+    [
+      "D",
+      3,
+    ],
+  ],
+  "D": [
+    [
+      "A",
+      4,
+    ],
+  ],
+}
+`;
+
+exports[`AdjacencyList should import set object correctly 4`] = `
+{
+  "A": [
+    [
+      "B",
+      1,
+    ],
+  ],
+  "B": [
+    [
+      "C",
+      2,
+    ],
+  ],
+  "C": [
+    [
+      "D",
+      3,
+    ],
+  ],
+  "D": [
+    [
+      "A",
+      4,
+    ],
+  ],
+}
+`;
+
+exports[`AdjacencyList should stringify object correctly 1`] = `
+"digraph MyGraph {
+
+  A -> B [label="1"]
+  B -> C [label="2"]
+  C -> D [label="3"]
+  D -> A [label="3"]
+
+}"
+`;
+
+exports[`AdjacencyList should stringify object correctly 2`] = `""`;
+
+exports[`AdjacencyList should stringify object correctly 3`] = `
+"digraph MyGraph {
+
+  A -> B [label="1"]
+  B -> C [label="2"]
+  C -> D [label="3"]
+  D -> A [label="3"]
+
+}"
+`;
+
+exports[`AdjacencyList should stringify object correctly 4`] = `
+"digraph MyGraph {
+
+  A -> {B}
+  B -> {C}
+  C -> {D}
+  D -> {A}
+
+}"
+`;
+
+exports[`AdjacencyList should stringify object correctly 5`] = `
+"\`\`\`mermaid
+graph LR
+  A((A)) -- 1 --> B((B))
+  B((B)) -- 2 --> C((C))
+  C((C)) -- 3 --> D((D))
+  D((D)) -- 3 --> A((A))
+\`\`\`"
+`;
+
+exports[`AdjacencyList should stringify object correctly 6`] = `
+"\`\`\`mermaid
+graph LR
+  A --> B
+  B --> C
+  C --> D
+  D --> A
+\`\`\`"
+`;
+
+exports[`AdjacencyList should stringify object correctly 7`] = `
+"
+const data = {
+  nodes: [
+    { id: 'A' },
+    { id: 'B' },
+    { id: 'C' },
+    { id: 'D' },
+  ],
+  links: [
+    { source: 'A', target: 'B', label: '1' },
+    { source: 'B', target: 'C', label: '2' },
+    { source: 'C', target: 'D', label: '3' },
+    { source: 'D', target: 'A', label: '3' },
+  ]
+}
+"
+`;
+
+exports[`AdjacencyList should stringify object correctly 8`] = `
+"
+const data = {
+  nodes: [
+    { id: 'A' },
+    { id: 'B' },
+    { id: 'C' },
+    { id: 'D' },
+  ],
+  links: [
+    { source: 'A', target: 'B' },
+    { source: 'B', target: 'C' },
+    { source: 'C', target: 'D' },
+    { source: 'D', target: 'A' },
+  ]
+}
+"
+`;

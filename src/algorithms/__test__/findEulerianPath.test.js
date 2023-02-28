@@ -85,7 +85,7 @@ describe('Does Eulerian circuit or path exists', () => {
     };
 
     let directed = false;
-    const al = (graph) => new AdjacencyList(graph, directed);
+    const al = (graph) => new AdjacencyList(graph);
 
     expect(isEulerianCircuit(al(undirectedNoPathNoCircuit), directed)).toBe(false);
     expect(isEulerianCircuit(al(undirectedPathOnly), directed)).toBe(false);
@@ -121,7 +121,7 @@ describe('Does Eulerian circuit or path exists', () => {
     };
 
     const directed = true;
-    const al = (graph) => new AdjacencyList(graph, directed);
+    const al = (graph) => new AdjacencyList(graph);
 
     expect(isEulerianCircuit(al(directedPathAndCircuit))).toBe(true);
     expect(isEulerianCircuit(al(directedNoPathNoCircuit), directed)).toBe(false);

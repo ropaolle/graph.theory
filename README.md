@@ -18,7 +18,7 @@
 
 - [ ] Autogenerera visuella grafer till de olika testfallen.
 - Graph Theory Playlist
-  - [ ] Minimum Spanning Tree
+  - [x] Minimum Spanning Tree
   - [ ] Maximum Network Flow
   - [ ] Unweighted Bipartite Matching
   - [ ] Bipartite match
